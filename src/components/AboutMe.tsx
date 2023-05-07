@@ -12,6 +12,18 @@ export default function AboutMe() {
           especially experienced customer service, store accounting and
           [research] toward team efforts and business improvements. I have an
           excellent communication skills. Smart and target driven.
+          <br />
+          <br />
+           I'm Seeking
+          to leverage exceptional accounting skills, competencies, and academic
+          knowledge to excel and make a difference in an accounting position in
+          any firm. Dedicated, competent, and detail oriented individual with
+          the capacity to go beyond what is expected and achieve company goals.
+          An intelligent economist with a significant amount of expertise in
+          education, healthcare, and hospitality industry. Possessing in-depth
+          knowledge of complex economic concepts, mathematics, analytical,
+          marketing, and adept at applying theories and ideas in real-world
+          situations.
         </p>
       </div>
     </div>

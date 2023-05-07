@@ -5,6 +5,8 @@ import {
   FacebookFilled,
   LinkedinFilled,
   MailOutlined,
+  MailFilled,
+  TwitterSquareFilled,
 } from "@ant-design/icons";
 const image = "./images/jebutu2.jpeg";
 
@@ -32,11 +34,11 @@ export default function HeroPage() {
         </div>
         <footer>
           <div className="profile-pics flex text-[16px] text-gray-300">
-            <img
+            {/* <img
               src={image}
               className="rounded-full w-[50px] h-[50px] mr-5"
               alt=""
-            />
+            /> */}
             <div className="socials flex">
               <a
                 href="https://www.linkedin.com/in/blessing-oreofe"
@@ -56,17 +58,18 @@ export default function HeroPage() {
               </a>
             </div>
             <div className="socials flex">
-              <a href="https://twitter.com/FemiGab2018">
-                <MailOutlined className="rounded-full mr-2" />
+              <a href="">
+                <MailFilled className="rounded-full mr-2" />
                 Email
+                {/* <span className=""> Email</span> */}
               </a>
             </div>
-            {/* <div className="socials flex">
-              <a href="https://www.linkedin.com/in/ogungbade-oluwafemi-25b28619a/">
-                <i className="lab la-linkedin"></i>
-                Linkedin
+            <div className="socials flex">
+              <a href="https://twitter.com/">
+                <TwitterSquareFilled className="mr-2" />
+                Twitter
               </a>
-            </div> */}
+            </div>
           </div>
         </footer>
       </div>

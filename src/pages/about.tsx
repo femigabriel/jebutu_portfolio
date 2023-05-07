@@ -12,7 +12,7 @@ export default function About() {
         href="https://fonts.cdnfonts.com/css/ubuntu-title"
         rel="stylesheet"
       ></link> */}
-      <div className="banner mb-5">
+      <div className="banner mb-20">
         <Headers />
         <AboutMe />
         <ItemCard />
