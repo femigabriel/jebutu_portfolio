@@ -1,22 +1,20 @@
 import { Inter } from "next/font/google";
-import HeroPage from "@/components/HeroPage";
 import Headers from "@/components/Header";
-import ItemCard from "@/components/Roles";
+import Contacts from "@/components/Contacts";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+export default function contacts() {
   return (
     <div>
       {/* <link
         href="https://fonts.cdnfonts.com/css/ubuntu-title"
         rel="stylesheet"
       ></link> */}
-      <div className="banner">
+      <div className="banner pt-0">
         <Headers />
-        <HeroPage />
+        <Contacts />
       </div>
-      {/* <ItemCard /> */}
+      hello
     </div>
   );
 }
