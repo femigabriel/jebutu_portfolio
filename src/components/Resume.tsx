@@ -63,9 +63,17 @@ export default function Resume() {
                 Accounting Sage 50, Quickbooks, Advance Microsoft Excel, ePOS
               </p>
             </div>
-            {/* <div className="divider">
-              <p className="subheading text-gray-400">Work Experience</p>
-            </div> */}
+            <div className="divider">
+              <p className="subheading text-gray-400">
+                professional Certifications
+              </p>
+              <span></span>
+            </div>
+            <div className="skills">
+              <p className="text-[18px] text-gray-500 leading-12  mt-5 tracking-widest">
+                AAT, AENTD, ACA
+              </p>
+            </div>
 
             <div className="divider">
               <p className="subheading text-gray-400">Work Experience</p>

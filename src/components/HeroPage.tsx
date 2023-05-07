@@ -4,7 +4,7 @@ const play = "./images/play.svg";
 import {
   FacebookFilled,
   LinkedinFilled,
-  TwitterSquareFilled,
+  MailOutlined,
 } from "@ant-design/icons";
 const image = "./images/jebutu2.jpeg";
 
@@ -38,21 +38,27 @@ export default function HeroPage() {
               alt=""
             />
             <div className="socials flex">
-              <a href="https://github.com/femigabriel" className="flex">
+              <a
+                href="https://www.linkedin.com/in/blessing-oreofe"
+                className="flex"
+              >
                 <LinkedinFilled className="mr-2 rounded-full" />
                 LinkedIn
               </a>
             </div>
             <div className="socials flex">
-              <a href="facebook.com/femigabriel89" className="flex">
+              <a
+                href="https://www.facebook.com/jebutu.blessing"
+                className="flex"
+              >
                 <FacebookFilled className="mr-2 rounded-full" />
                 Facebook
               </a>
             </div>
             <div className="socials flex">
               <a href="https://twitter.com/FemiGab2018">
-                <TwitterSquareFilled className="rounded-full mr-2" />
-                Twitter
+                <MailOutlined className="rounded-full mr-2" />
+                Email
               </a>
             </div>
             {/* <div className="socials flex">
