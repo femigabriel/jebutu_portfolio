@@ -36,14 +36,14 @@ export default function Headers() {
         </nav>
       </header>
       <Modal
-        title="JEBUTU BLESSING OREOFE"
+        title={<h1>Contact me </h1>}
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
       >
         <div className="resume_container">
           <div>
-            {/* <h2>JEBUTU BLESSING OREOFE </h2> */}
+            {/* <h2>Contact me on </h2> */}
             <div className="skills">
               <p className=" text-gray-400 ">
                 <span className=" text-gray-600 font-semibold mr-3">
