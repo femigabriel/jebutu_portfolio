@@ -48,7 +48,8 @@ body::-webkit-scrollbar-thumb {
 }
 @media (max-width: 820px) {
   .banner{
-    background: none;
+    /* background: none; */
+    width: 100%;
   }
 }
 h1 {
@@ -58,6 +59,11 @@ h1 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+@media (max-width: 820px) {
+  h1 {
+    font-size: 52px
+  }
+}
 .div {
   background: linear-gradient(to right, #F0B7A1 0%, #8C3310 50%, #752201 51%, #BF6E4E 100%);
   -webkit-background-clip: text;
@@ -65,12 +71,20 @@ h1 {
 }
 li {
   list-style: none;
-  padding: 20px;
+  /* padding: 20px; */
   font-weight: 600;
   font-size: 18px;
   background: linear-gradient(to right, #F0B7A1 0%, #8C3310 50%, #752201 51%, #BF6E4E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 720px) {
+  li{
+  font-size: 14px;
+  color: #f5f5f5;
+  padding: 10px;
+  
+  }
 }
 
 .item_card {
@@ -311,7 +325,7 @@ section {
     padding: 5px 2px;
   }
   .socials a {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 12px;
   }
 
@@ -334,7 +348,7 @@ section {
     padding: 2px 0px;
   }
   .socials a {
-    font-size: 7px;
+    font-size: 12px;
     margin: 5px 5px;
     /* display: none; */
   }

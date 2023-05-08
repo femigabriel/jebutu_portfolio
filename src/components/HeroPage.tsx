@@ -13,16 +13,16 @@ const image = "./images/jebutu2.jpeg";
 export default function HeroPage() {
   return (
     <div className="">
-      <div className="pt- p-5  px-28">
+      <div className="lg:pt-5 sm:pt-10 p-5  lgpx-28 ">
         <div className="">
           <h1 className="text-[#FDFDFD] text-[62px]  font-semibold mt-5 flex flex-col leading-12">
             <span> Hello,</span>
             I'm Jebutu Blessing
           </h1>
-          <h3 className="text-[#05093B] font-bold text-[26x] mt-3 mb-10">
+          <h3 className="text-[#05093B] font-bold lg:text-[26x] mt-3 mb-10">
             Accountant, Finance Officer, Internal Audit/Control
           </h3>
-          <p className="text-[16px] text-gray-100  w-[45em] leading-relaxed  mt-5 tracking-widest mb-10">
+          <p className="lg:text-[16px] sm:text=[12px] text-gray-100  lg:w-[45em] sm:w-[32em] leading-relaxed  mt-5 tracking-widest mb-10">
             A Driven accountant with over five years of experience specializing
             in accounting, auditing, budgeting, and performance management.
             Advanced knowledge of generally accepted accounting principles and

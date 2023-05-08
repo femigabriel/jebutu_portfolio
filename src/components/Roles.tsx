@@ -34,12 +34,12 @@ export default function ItemCard() {
   return (
     <div className="flex justify-center items-center pt-10">
       <div className="">
-        <div className="lg:grid gap-5 grid-cols-4 sm:block p- ">
+        <div className="lg:grid gap-5 grid-cols-4 sm:block p-">
           {items.map((list) => {
             return (
               <div
                 key={list.id}
-                className=" rounded-xl cursor-pointer item_card bg-white"
+                className=" rounded-xl cursor-pointer item_card bg-white mb-5"
               >
                 <div className="">
                   <div>{list.img}</div>

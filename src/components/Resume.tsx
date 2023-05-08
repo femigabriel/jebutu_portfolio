@@ -1,23 +1,29 @@
 const image = "./images/jebutu2.jpeg";
+import React, { useState } from "react";
 
 export default function Resume() {
+
+
   return (
-    <div className="p-10 px-20">
+    <div className="p-5 lg:px-20">
       <div className="pages_container">
+  
         <div className="resume">
           <div className="resume_container">
             <div className="top_row font-bold ">
               <div>
                 <h2>JEBUTU BLESSING OREOFE </h2>
-                <p className=" tracking-[3px] text-gray-400">
-                  jebutublessing@gmailcom, +2348165655677, +2348081977497
-                </p>
+                <div className="skills">
+                  <p className=" tracking-[3px] text-gray-400">
+                    jebutublessing@gmailcom, +2348165655677, +2348081977497
+                  </p>
+                </div>
               </div>
-              <img
+              {/* <img
                 src={image}
-                className="rounded-full w-[100px] h-[100px]"
+                className="rounded-full w-[50px] h-[50px]"
                 alt=""
-              />
+              /> */}
             </div>
             <p className="subheading text-gray-400">
               Accountant, Finance Officer, Internal Auditor/Control
@@ -39,7 +45,7 @@ export default function Resume() {
               <span></span>
             </div>
             <div className="skills">
-              <p className="text-[18px] text-gray-500  w-[75em] leading-12  mt-5 tracking-[2px]">
+              <p className="text-[18px] text-gray-500   leading-12  mt-5 tracking-[2px]">
                 Bookkeeping, Tax accounting, Problem SOlving SKills, MS Office,
                 Verbal and written communication, Cash Flow analysis,
                 Leadership, Analytical Skill, Econometrics
