@@ -42,6 +42,10 @@ export default function Headers() {
         onCancel={handleCancel}
       >
         <div className="resume_container">
+          <link
+            href="https://fonts.cdnfonts.com/css/ubuntu-title"
+            rel="stylesheet"
+          ></link>
           <div>
             {/* <h2>Contact me on </h2> */}
             <div className="skills">
@@ -51,8 +55,8 @@ export default function Headers() {
                 </span>
                 jebutublessing@gmailcom,
               </p>
-              <p className=" text-gray-400">
-                <span className=" text-gray-600 font-semibold mr-3">
+              <p className=" text-gray-400 text-[12px] w-full">
+                <span className=" text-gray-600 w-full  font-semibold mr-3">
                   Phone Numbers :
                 </span>
                 +2348165655677, +2348081977497
