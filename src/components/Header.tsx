@@ -43,10 +43,10 @@ export default function Headers() {
         onCancel={handleCancel}
       >
         <div className="resume_container">
-          <link
+          {/* <link
             href="https://fonts.cdnfonts.com/css/ubuntu-title"
             rel="stylesheet"
-          ></link>
+          ></link> */}
           <div>
          
             <Contacts />
