@@ -26,7 +26,7 @@ export default function Resume() {
               /> */}
             </div>
             <p className="subheading text-gray-400">
-              Accountant, Finance Officer, Internal Auditor/Control
+              Accountant, Finance Officer, Internal Auditor
             </p>
             <div className="summary">
               <p className="text-[18px] text-gray-500  w-[75em] leading-12  mt-5 tracking-widest">
