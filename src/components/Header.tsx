@@ -37,7 +37,7 @@ export default function Headers() {
         </nav>
       </header>
       <Modal
-        title={<h1>Contact me </h1>}
+        title={<h1>Contacts </h1>}
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
