@@ -2,12 +2,9 @@ const image = "./images/jebutu2.jpeg";
 import React, { useState } from "react";
 
 export default function Resume() {
-
-
   return (
-    <div className="p-5 lg:px-20">
+    <div className="p-5 flex justify-center items-center lg:px-20">
       <div className="pages_container">
-  
         <div className="resume">
           <div className="resume_container">
             <div className="top_row font-bold ">

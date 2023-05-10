@@ -137,6 +137,8 @@ p {
   flex-direction: column;
   padding: 5%;
   color: #05093B;
+  width: 100%;
+  margin-left: 5px;
 }
 .top_row {
   align-items: center;
@@ -145,9 +147,14 @@ p {
 }
 .top_row h2 {
   font-size: 14px;
-  line-height: 47px;
+  line-height: 25px;
   margin: 0;
   letter-spacing: 5px;
+}
+@media (max-width: 720px) {
+  .top_row h2 {
+    font-style: 12px;
+  }
 }
 
 small {
