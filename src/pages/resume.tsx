@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function resume() {
   return (
     <div>
-      {/* <link
-        href="https://fonts.cdnfonts.com/css/ubuntu-title"
+      <link
+        href="https://fonts.cdnfonts.com/css/clash-display"
         rel="stylesheet"
-      ></link> */}
+      ></link>
       <div className="banner pt-0">
         <Headers />
         <Resume />

@@ -8,6 +8,10 @@ const handleSubmit = (e: any) => {
 export default function Contacts() {
   return (
     <div>
+      <link
+        href="https://fonts.cdnfonts.com/css/clash-display"
+        rel="stylesheet"
+      ></link>
       {/* <h2>Contact me on </h2> */}
       <div className="skills">
         <p className=" text-gray-400 ">

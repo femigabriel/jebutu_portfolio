@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function About() {
   return (
     <div>
-      {/* <link
-        href="https://fonts.cdnfonts.com/css/ubuntu-title"
+     <link
+        href="https://fonts.cdnfonts.com/css/clash-display"
         rel="stylesheet"
-      ></link> */}
+      ></link>
       <div className="banner mb-20">
         <Headers />
         <AboutMe />
