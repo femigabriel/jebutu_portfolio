@@ -12,7 +12,7 @@ export default function Home() {
         href="https://fonts.cdnfonts.com/css/clash-display"
         rel="stylesheet"
       ></link>
-      <div className="banner">
+      <div className="home">
         <Headers />
         <HeroPage />
       </div>

@@ -14,15 +14,15 @@ export default function HeroPage() {
   return (
     <div className="">
       <div className="lg:pt-5 sm:pt-10 p-5  lgpx-28 ">
-        <div className="">
-          <h1 className="text-[#FDFDFD] text-[56px] font-semibold mt-5 flex flex-col leading-12">
+        <div className="hero-page">
+          <h1 className="text-[#FDFDFD] font-semibold mt-5 flex flex-col leading-12">
             <span> Hello,</span>
             I'm Jebutu Blessing
           </h1>
-          <h3 className="text-[#FDFDFD] font-bold lg:text-[26x] mt-3 mb-10">
+          <h3 className="text-[#FDFDFD] font-bold lg:text-[26x] mt-3 mb-10 leading-relaxed">
             Accountant, Finance Officer, Internal Audit/Control
           </h3>
-          <p className="lg:text-[16px] sm:text=[12px] text-gray-100  lg:w-[38em] sm:w-[32em] leading-relaxed  mt-5 tracking-widest mb-10">
+          <p className="lg:text-[16px] sm:text=[12px] text-gray-100 leading-relaxed  mt-5 tracking-widest mb-10">
             A Driven accountant with over five years of experience specializing
             in accounting, auditing, budgeting, and performance management.
             Advanced knowledge of generally accepted accounting principles and
