@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div className="p-5 pt-10 lg:px-20 flex items-center justify-center">
       <div>
         <h1 className="text-center font-semibold">ABOUT ME</h1>
-        <p className="lg:text-[18px] sm:text-[14px] text-gray-100 lg:w-[45em] sm:w-[38em] leading-12  mt-20 tracking-widest mb-10">
+        <p className="lg:text-[18px] sm:text-[14px] text-gray-100 lg:w-[45em] sm:w-[38em] leading-relaxed  mt-20 tracking-widest mb-10">
           I am responsible for risk management, supporting Head of Audits with
           various duties as required, collecting and analysing data, I also
           conduct periodic stock audit, monitor all financial activities. I have

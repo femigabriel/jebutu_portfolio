@@ -10,11 +10,10 @@ export default function resume() {
         href="https://fonts.cdnfonts.com/css/clash-display"
         rel="stylesheet"
       ></link>
-      <div className="banner pt-0">
+      <div className=" pt-0">
         <Headers />
         <Resume />
       </div>
-      hello
     </div>
   );
 }

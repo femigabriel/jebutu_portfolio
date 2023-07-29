@@ -12,7 +12,7 @@ export default function About() {
         href="https://fonts.cdnfonts.com/css/clash-display"
         rel="stylesheet"
       ></link>
-      <div className="banner mb-20">
+      <div className=" mb-20">
         <Headers />
         <AboutMe />
         <ItemCard />
