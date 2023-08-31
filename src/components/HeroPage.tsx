@@ -1,6 +1,7 @@
 const star = "./images/star.svg";
 const info = "./images/info.svg";
 const play = "./images/play.svg";
+const pics = "./images/jebu-img.jpeg";
 import {
   FacebookFilled,
   LinkedinFilled,
@@ -12,7 +13,7 @@ const image = "./images/jebutu2.jpeg";
 
 export default function HeroPage() {
   return (
-    <div className="">
+    <div className="hero-page flex justify-between">
       <div className="lg:pt-5 sm:pt-10 p-5  lgpx-28 ">
         <div className="hero-page">
           <h1 className="text-[#FDFDFD] font-semibold mt-5 flex flex-col leading-12">
@@ -34,11 +35,6 @@ export default function HeroPage() {
         </div>
         <footer>
           <div className="profile-pics flex text-[16px] text-gray-300">
-            {/* <img
-              src={image}
-              className="rounded-full w-[50px] h-[50px] mr-5"
-              alt=""
-            /> */}
             <div className="socials flex">
               <a
                 href="https://www.linkedin.com/in/blessing-oreofe"
@@ -72,6 +68,9 @@ export default function HeroPage() {
             </div>
           </div>
         </footer>
+      </div>
+      <div className="profile ">
+        <img src={pics} alt="" className="" />
       </div>
     </div>
   );
