@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
 }
 .profile {
   width: 100%;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 .profile img {
   /* width: 350px;
@@ -155,7 +155,7 @@ li {
   list-style: none;
   /* padding: 20px; */
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   /* background: linear-gradient(
     to right,
     #FDFDFD 51%,

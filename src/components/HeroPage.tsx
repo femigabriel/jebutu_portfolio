@@ -14,7 +14,7 @@ const image = "./images/jebutu2.jpeg";
 export default function HeroPage() {
   return (
     <div className="hero-page flex justify-between">
-      <div className="lg:pt-5 sm:pt-10 lg:p-5  lg:px-28 ">
+      <div className="lg:pt-5 sm:pt-10 lg:p-5  lg:px-20 ">
         <div className="hero-page">
           <h1 className="text-[#FDFDFD] font-semibold mt-5 flex flex-col leading-12">
             <span> Hello,</span>
