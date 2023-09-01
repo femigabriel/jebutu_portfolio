@@ -23,7 +23,7 @@ export default function HeroPage() {
           <h3 className="text-[#FDFDFD] font-bold lg:text-[26x] mt-3 mb-10 leading-relaxed">
             Accountant, Finance Officer, Internal Audit/Control
           </h3>
-          <p className="lg:text-[16px] sm:text=[12px] text-gray-100 leading-relaxed  mt-5 tracking-widest mb-10">
+          <p className="lg:text-[16px] sm:text=[12px] text-[#777778] leading-relaxed  mt-5 tracking-widest mb-10">
             A Driven accountant with over five years of experience specializing
             in accounting, auditing, budgeting, and performance management.
             Advanced knowledge of generally accepted accounting principles and
